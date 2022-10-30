@@ -159,7 +159,6 @@ class Bianchi:
             print('Probability',Prob)
             a=self.calculate_b(i,self.m)
             delay=self.T_s+a*self.E_s+E_Uj+E_U0
-          #  print(delay)
             Dly.append(delay*10E3)
             E_D=E_D+(self.T_s+i*self.T_c+self.E_s*w_i)*(((1-self.p)*self.p**i)/(1-self.p**(self.m+1)))
             E_D2=E_D2+((1-self.p)*self.p**i)/((1-self.p**(self.m+1))*2.0 ** i * self.W)*E_D1
