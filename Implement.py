@@ -33,7 +33,7 @@ class Bianchi:
         # T_s: the average time the channel is sensed busy, in seconds
         # T_c: the average time the channel is sensed busy by each station during a collision in seconds.
 
-        # independent varz
+        # independent variables
         self.bitrate = 56E6
         self.n = 30
 
